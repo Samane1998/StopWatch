@@ -19,7 +19,7 @@ function App() {
   
 
   return (
-    <div className='bg-fuchsia-300 w-[300px] h-[250px] flex flex-col items-center justify-center rounded-xl '>
+    <div className='bg-[#DED0B6] w-[300px] h-[250px] flex flex-col items-center justify-center rounded-xl '>
       <h1 className='font-bold' >StopWatch</h1>
       <div className='font-semibold m-5'>
         <span> {("0" + Math.floor((time / 60000) % 60 )).slice(-2)} :</span>
@@ -31,16 +31,16 @@ function App() {
         {running 
         ? (
         <button
-        className='bg-pink-200 rounded-lg hover:font-medium w-[60px] m-1' 
+        className='bg-[#FAEED1] rounded-lg hover:font-medium w-[60px] m-1' 
         onClick={() =>{setRunning(false)}}>Stop</button>) 
         : (
         <button 
-        className='bg-pink-200 rounded-lg hover:font-medium w-[60px] m-1'
+        className='bg-[#FAEED1] rounded-lg hover:font-medium w-[60px] m-1'
         onClick={() =>{setRunning(true)}}>Start</button>)}
         
         
         <button 
-        className='bg-pink-200 rounded-lg  hover:font-medium w-[60px] m-1'
+        className='bg-[#FAEED1] rounded-lg  hover:font-medium w-[60px] m-1'
         onClick={() =>{setTime(0)}}>Reset</button>
       </div>
     </div>
