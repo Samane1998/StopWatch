@@ -1,8 +1,8 @@
 # React + Vite
+In this project, I made a stopwatch using React (Hook UseState and Hook UseEffect) and Tailwind CSS ....
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+![Screenshot (154)](https://github.com/Samane1998/StopWatch/assets/136247795/71fbdddb-9245-4d9e-bbe3-1a9d6818e4f1)
+![Screenshot (155)](https://github.com/Samane1998/StopWatch/assets/136247795/ab37404b-84be-4711-b756-2c5eeec37b7a)
